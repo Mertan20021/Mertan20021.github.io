@@ -100,97 +100,33 @@ nav{
 }
 .Services{
     width: 100%;
-    height: calc(53% - 60px);
+    height: calc(80% - 100px);
     background: url(../img/fon2.jpg) center/cover no-repeat;
+    text-align: center;
 }
-.i h3{
+.u h4{
     font-size: 36px;
-    width: 300px;
     font-weight: bold;
-    color: #263244;
-    margin: 220px 877px 0px;
+    margin: 90px;
 }
-.Services img{
-    margin: 33px 0px 0px 940px;
-}
-.Web_development h5{
-    width: 100%;
+.Services h5{
     font-size: 17px;
     font-weight: bold;
     color: #cf7600;
-    float: left;
-    margin-top: 200px;
-    margin-left: 477px;
 }
-.Web_development img{
-    margin: -85px 497px;
+.i{
     float: left;
+    width: 150px;
+    text-align: center;
+    margin: 150px;;
 }
-.Web_development p{
+.i p{
     font-size: 14px;
     color: #3f495a;
     width: 150px;
-    float: left;
-    text-align: center;
-    margin: 10px 450px;
+    margin: 15px 5px;
 }
-.Development h5{
-    font-size: 17px;
-    font-weight: bold;
-    color: #cf7600;
-    float: left;
-    margin-top: -95px;
-    margin-left: 770px;
-}
-.Development img{
-    margin: -165px 790px;
-}
-.Development p{
-    font-size: 14px;
-    color: #3f495a;
-    width: 150px;
-    float: left;
-    text-align: center;
-    margin: -79px 745px;
-}
-.SEO_optimization h5{
-    font-size: 17px;
-    font-weight: bold;
-    color: #cf7600;
-    width: 350px;
-    float: left;
-    margin: -103px 1041px;
-}
-.SEO_optimization img{
-    margin: -185px 1090px;
-}
-.SEO_optimization p{
-    font-size: 14px;
-    color: #3f495a;
-    width: 150px;
-    float: left;
-    text-align: center;
-    margin: -91px 1045px; 
-}
-.Marketing h5{
-    font-size: 17px;
-    font-weight: bold;
-    color: #cf7600;
-    float: left;
-    margin: -115px 1350px;
-}
-.Marketing img{
-    float: left;
-    margin: -185px 1370px;
-}
-.Marketing p{
-    font-size: 14px;
-    color: #3f495a;
-    width: 150px;
-    float: left;
-    text-align: center;
-    margin: -90px 1320px;
-}
+
 .Cases h4{
     font-size: 36px;
     font-weight: bold;
@@ -300,39 +236,37 @@ nav{
     background: url(../img/polosa1.jpg) center/cover no-repeat;
 }
 
+
+
+
+
+
+
 .Statistics {
     width: 100%;
     height: calc(500px );
     background: url(../img/FonK.jpg) center/cover no-repeat;
-}
-.Statistics h3{
     font-size: 36px;
-    float: left;
+}
+.Statistics h4{
     color: #263244;
     width: 450px;
     margin: 102px 0px 0px 805px;
     
 }
 .Statistics img{
-    margin: 20px 435px;
+    
 }
 .ck{
     float: left;
-    width: 494px;
+    width: 150px;
     text-align: center;
-}
-.ck img{
-
-}
-.ck h3{
-    font-size: 36px;
-
+    margin: 150px;
 }
 .ck p{
     font-size: 16px;
     color: #323e4f;
     font-weight: bold;
-    
 }
 
 
@@ -340,73 +274,6 @@ nav{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-.cr{
-   float: left;
-   width: 494px;
-}
-.cr img{
-    
-}
-.cr h3{
-    font-size: 36px;
-    
-}
-.cr p{
-    
-    font-size: 16px;
-    color: #323e4f;
-    font-weight: bold;
-    text-align: left;
-   
-}
-.pz{
-    float: left;
-    width: 494px  
-}
-.pz img{
-     
-}
-.pz h3{
-    font-size: 36px;
-    
-}
-.pz p{
-    font-size: 16px;
-    color: #323e4f;
-    font-weight: bold;
-    width: 175px;
-    
-}
-.np{
-    float: left;
-    width: 784px
-}
-.np img{
-   
-}
-.np h3{
-    font-size: 36px;
-    
-}
-.np p{
-    font-size: 16px;
-    color: #323e4f;
-    font-weight: bold;
-    width: 135px;
-    
-}
 .reviews h1{
     font-size: 36px;
     font-weight: bold;

@@ -98,16 +98,23 @@ nav{
     padding-left: 12px;
     background: url(../img/dow.png) 5px 10px no-repeat;
 }
+
+
+
+
+
 .Services{
     width: 100%;
-    height: calc(80% - 100px);
+    height: calc(75% - 10px);
     background: url(../img/fon2.jpg) center/cover no-repeat;
     text-align: center;
 }
-.u h4{
+.Services h4{
     font-size: 36px;
     font-weight: bold;
-    margin: 90px;
+}
+.Services img{
+ margin: 25px 920px;
 }
 .Services h5{
     font-size: 17px;
@@ -116,16 +123,21 @@ nav{
 }
 .i{
     float: left;
-    width: 150px;
+    width: 387px;
     text-align: center;
-    margin: 150px;;
+}
+.i2{
+   margin: 0px 0px 0px 400px; 
 }
 .i p{
     font-size: 14px;
     color: #3f495a;
-    width: 150px;
-    margin: 15px 5px;
 }
+.i img{
+    margin: 150px 0px 0px 0px;
+}
+
+
 
 .Cases h4{
     font-size: 36px;
@@ -244,31 +256,34 @@ nav{
 
 .Statistics {
     width: 100%;
-    height: calc(500px );
-    background: url(../img/FonK.jpg) center/cover no-repeat;
-    font-size: 36px;
+    height: calc(75% );
+    background: url(../img/FonK.jpg) center/cover no-repeat round;
+    text-align: center;
 }
 .Statistics h4{
+    font-size: 36px;
     color: #263244;
-    width: 450px;
-    margin: 102px 0px 0px 805px;
-    
+    font-weight: bold;
 }
 .Statistics img{
-    
+    margin: 35px 920px ;
 }
 .ck{
     float: left;
-    width: 150px;
+    width: 387px;
     text-align: center;
-    margin: 150px;
+}
+.cp{
+    margin: 0px 0px 0px 500px; 
 }
 .ck p{
     font-size: 16px;
     color: #323e4f;
     font-weight: bold;
 }
-
+.ck img{
+    margin: 210px 0px 10px 0px;
+}
 
 
 
@@ -295,10 +310,16 @@ nav{
     text-align: center;
     margin: 270px 520px 0px;
 }
+
+
+
+
+
+
 .Contacts{
     width: 100%;
     height: calc(100% - 0px);
-    background: url(../img/fonP.jpg) no-repeat;  
+    background: url(../img/fonP.jpg) no-repeat;
 }
 .Contacts__contaner h3{
     font-size: 36px;
@@ -307,21 +328,14 @@ nav{
     width: 250px;
     margin: 16px 852px;
 }
-.Contacts__contaner img{
-    margin: 14px 940px;
-}
-.tel{
+.s{
     float: left;
     width: 494px;
     text-align: center;
 }
-.tel img{
+.s img{
     margin: 264px 1150px ;
 }
-.tel p{
+.s p{
 
-}
-.soc img{
-    
-    margin: 0px 426px 950px;
 }

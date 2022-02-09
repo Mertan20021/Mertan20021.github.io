@@ -12,7 +12,6 @@ nav{
     line-height: 60px;
     padding-left: 388px;
     float: left;
-    
 }
 .menu{
     float: left;
@@ -25,7 +24,6 @@ nav{
     margin-right: 40px;
     font-size: 16px;
     text-transform: uppercase;
-    
 }
 .main{
     width: 100%;
@@ -36,19 +34,16 @@ nav{
     float: left;
     margin: 432px 0px 0px 404px;
     color:  #2c384a;
-    text-align: center;
-    
+    text-align: center; 
 }
 .title__contaner h1{
     font-size: 60px;
     font-weight: bold;
-    
 }
 .title__contaner h4{
     margin-top: 40px;
     font-size: 22px;
     color: #79818b;
-    
 }
 .title__contaner input{
     height: 40px;
@@ -64,34 +59,32 @@ nav{
 .About_me{
     width: 100%;
     height: calc(100% - 60px);
-    background: url(../img/fotka.jpg) 870px 118px/auto 201px no-repeat;
+    background: url(../img/fotka.jpg) 1165px 118px/auto 201px no-repeat;
+    text-align: center;
 }
 .About_me h3{    
     font-size: 36px;
     width: 250px;
     font-weight: bold;
     color: #263244;
-    margin: 107px 896px 0px 895px;
+  margin: 0px 0px 0px 1150px;
 }
 .About_me img{
-    margin: 33px 935px 0px;
+    margin: 33px 1130px 0px;
 }
-
 .About_me p{
     font-size: 17px;
     color: #79808c;
-    margin-top: 324px;
-    margin-left: 34%;
-    text-align: center;
-    width: 35%;
+    width: 900px;
+    margin-top: 300px;
+    margin-left: 800px;
 }
 .About_me h5{
     font-size: 17px;
-    text-align: center;
     border: 2px solid #6f707e;
     border-radius: 5px;
     color: #6d7682;
-    margin: 40px 888px 0px 877px;
+    margin: 0px 0px 0px 1180px;
     width: 165px;
     height: 40px;
     line-height: 35px;
@@ -114,17 +107,17 @@ nav{
     font-weight: bold;
 }
 .Services img{
- margin: 25px 920px;
+ margin: 25px 900px;
 }
 .Services h5{
     font-size: 17px;
     font-weight: bold;
     color: #cf7600;
+    margin: 65px;
 }
 .i{
     float: left;
     width: 387px;
-    text-align: center;
 }
 .i2{
    margin: 0px 0px 0px 400px; 
@@ -136,57 +129,61 @@ nav{
 .i img{
     margin: 150px 0px 0px 0px;
 }
-
-
-
 .Cases h4{
     font-size: 36px;
     font-weight: bold;
     color: #263244;
-    margin: 107px 896px 0px 895px;
+    margin: 107px 896px 0px 1180px;
 }
 .Cases img{
-    margin: 20px 0px 0px 915px;
+    margin: 20px 0px 0px 1200px;  
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 .Cases p{
     font-size: 14px;
     color: #3f495a;
-    margin: 35px 650px;
-    width: 650px;
+    margin: 35px 900px;
 }
-.c1 img{
-    margin: auto;
+
+.ca img{
+    margin: 25px 230px;
 }
-.c1 h3{
+.ca h3{
     font-size: 18px;
     color: #384354;
-    margin: -117px 390px;
-    text-align: left;
-    line-height: 40px;
+    margin: 0px 620px;
+    line-height: 30px;
 }
-.c2 p{
-    font-size: 14px;
-    color: #384354;
-    margin: 120px 390px;
-    text-align: left;
-    line-height: -420px;
-}
-.p1 p{
-    margin: -70px 390px;
-}
-.c2 img{
-   margin: -25px 390px; 
-    
-}
-.c3 h4{
-    font-size: 30px;
-    margin: -25px 680px;
+.ca p{
+    font-size: 18px;
+    color: #fff;
+    margin: 15px 620px;
+    width: 203px;
+    height: 45px;
+    background: url(../img/forma.png)  round no-repeat;
 }
 .c3 p{
     font-size: 14px;
-    margin: 50px 680px;
+    margin: 0px 680px;
     width: 800px;
 }
+
+
+
+
+
 
 .calculator h1{
     font-size: 36px;
@@ -212,7 +209,7 @@ nav{
 
 .design h2{
    font-size: 18px; 
-    color: #1c2534;
+   color: #1c2534;
    text-align: left;
    margin: 200px 0px 15px 600px;
     
@@ -284,24 +281,19 @@ nav{
 .ck img{
     margin: 210px 0px 10px 0px;
 }
-
-
-
-
-
 .reviews h1{
     font-size: 36px;
     font-weight: bold;
     color: #263244;
-    margin: 107px 896px 0px 895px; 
+    margin: 107px 0px 0px 1150px; 
 }
 .reviews{
     width: 100%;
     height: calc(100% - 60px);
-    background: url(../img/fotka2.png) 900px 118px/auto 150px no-repeat;
+    background: url(../img/fotka2.png) 1160px 118px/auto 150px no-repeat;
 }
 .reviews img{
-    margin: 30px 0px 0px 935px;
+    margin: 30px 0px 0px 1200px;
 }
 .reviews p{
     font-size: 14px;
@@ -318,8 +310,8 @@ nav{
 
 .Contacts{
     width: 100%;
-    height: calc(100% - 0px);
-    background: url(../img/fonP.jpg) no-repeat;
+    height: calc(100%);
+    background: url(../img/fonP.jpg) center/cover no-repeat;
 }
 .Contacts__contaner h3{
     font-size: 36px;

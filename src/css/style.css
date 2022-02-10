@@ -91,11 +91,6 @@ nav{
     padding-left: 12px;
     background: url(../img/dow.png) 5px 10px no-repeat;
 }
-
-
-
-
-
 .Services{
     width: 100%;
     height: calc(75% - 10px);
@@ -113,7 +108,7 @@ nav{
     font-size: 17px;
     font-weight: bold;
     color: #cf7600;
-    margin: 65px;
+    margin: 25px;
 }
 .i{
     float: left;
@@ -127,7 +122,7 @@ nav{
     color: #3f495a;
 }
 .i img{
-    margin: 150px 0px 0px 0px;
+    margin: 5px;
 }
 .Cases h4{
     font-size: 36px;
@@ -138,27 +133,20 @@ nav{
 .Cases img{
     margin: 20px 0px 0px 1200px;  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 .Cases p{
     font-size: 14px;
     color: #3f495a;
-    margin: 35px 900px;
+    margin: 25px 900px;
 }
 
+
+
+.ca{
+float: left;
+width: 350px;
+}
 .ca img{
-    margin: 25px 230px;
+    margin: 10px 230px;
 }
 .ca h3{
     font-size: 18px;
@@ -171,17 +159,12 @@ nav{
     color: #fff;
     margin: 15px 620px;
     width: 203px;
-    height: 45px;
     background: url(../img/forma.png)  round no-repeat;
 }
 .c3 p{
-    font-size: 14px;
-    margin: 0px 680px;
-    width: 800px;
+   font-size: 14px;
+    margin: 650px 900px;
 }
-
-
-
 
 
 
@@ -197,7 +180,6 @@ nav{
     color: #737373;
     float: left;
     margin: 100px 0px 15px 600px;
-    line-height: -20px;
     background: url(../img/polosa1.jpg) center/cover no-repeat;
 }
 .calculator h2{
@@ -207,36 +189,30 @@ nav{
    margin: 50px 0px 15px 600px;
 }
 
-.design h2{
-   font-size: 18px; 
-   color: #1c2534;
-   text-align: left;
-   margin: 200px 0px 15px 600px;
-    
-}
-.design select{
+.calculator select{
     font-size: 17px;
     color: #737373;
     float: left;
     margin: 150px 0px 15px 600px;
-    line-height: 20px;
     background: url(../img/polosa1.jpg) center/cover no-repeat;
 }
-.adap h2{
+.calculator h2{
    font-size: 18px; 
-    color: #1c2534;
+   color: #1c2534;
    text-align: left;
+   line-height: 0px;
    margin: 250px 0px 15px 600px;   
 }
-.adap img{
-    margin: 250px 0px 15px -90px;
+.calculator img{
+    margin: 200px 0px 15px;
 }
-.crok h4{
+.crok{
     font-size: 15px;
     color: #1c2534;
-    margin: 200px 0px 0px 600px;
+    margin: 5px 0px 0px 600px;
+    line-height: 30px;
 }
-.adap select{
+.calculator select{
     font-size: 17px;
     color: #737373;
     float: left;
@@ -244,13 +220,6 @@ nav{
     line-height: 42px;
     background: url(../img/polosa1.jpg) center/cover no-repeat;
 }
-
-
-
-
-
-
-
 .Statistics {
     width: 100%;
     height: calc(75% );
@@ -310,24 +279,78 @@ nav{
 
 .Contacts{
     width: 100%;
-    height: calc(100%);
+    height: calc(100% );
     background: url(../img/fonP.jpg) center/cover no-repeat;
+    text-align: center;
 }
-.Contacts__contaner h3{
+.Contacts h3{
     font-size: 36px;
     font-weight: bold;
     color: #fff;
-    width: 250px;
-    margin: 16px 852px;
+    width: 350px;
+    margin: 16px 1100px;
+}
+
+.Contacts p{
+    color: #fff;
+    margin: 50px;
 }
 .s{
     float: left;
-    width: 494px;
     text-align: center;
+    width: 400px; 
 }
+
 .s img{
-    margin: 264px 1150px ;
+    margin: 20px 0px 0px 900px ;
 }
 .s p{
+    width: 300px;
+    color: #fff;
+    font-size: 17px;
+    margin: 20px 0px 0px 770px;
+}
 
+
+
+
+
+
+.mesenger{
+    width: 450px;
+    margin: 300px 1065px 0px;
+}
+.mesenger h2{
+    font-size: 36px;
+    color: #fff;
+}
+.m{
+    line-height: 85px;
+    width: 500px;
+}
+.m input{
+    width: 355px;
+    height: 38px;
+    text-align: center;
+    color: #d1d5db; 
+    font-size: 13px;
+    margin: 40px 14px 0px 14px;
+}
+.m textarea{
+    margin: 5px 0px 0px 0px;
+    
+}
+.ot input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #f9faff; 
+    background: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 50px 14px 0px 14px;
+}
+.ot{
+    margin: 0px 0px 150px 0px;
 }

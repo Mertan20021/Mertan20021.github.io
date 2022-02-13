@@ -146,12 +146,6 @@ main{
         margin-left: 404px;
     }
 }
-
-
-
-
-
- 
 .About_me{
     width: 100%;
     height: calc(100% - 60px);
@@ -175,17 +169,28 @@ main{
     margin-top: 300px;
     margin-left: 800px;
 }
-.About_me h5{
+About_me input{
+    transition: all 0.2s;
+    transform: scale(1);
+}
+.About_me input{
     font-size: 17px;
     border: 2px solid #6f707e;
     border-radius: 5px;
     color: #6d7682;
-    margin: 0px 0px 0px 1180px;
+    margin: 25px;
     width: 165px;
     height: 40px;
     line-height: 35px;
     padding-left: 12px;
     background: url(../img/dow.png) 5px 10px no-repeat;
+}
+.About_me input:hover{
+    background: #344051;
+    color: white;
+}
+.About_me input:active{
+    transform: scale(1.1);
 }
 .Services{
     width: 100%;
@@ -219,6 +224,48 @@ main{
 }
 .i img{
     margin: 5px;
+    text-align: center;
+    -webkit-animation: i 0.5s;
+    -o-animation: i 0.5s;
+    animation: i 0.5s;
+}
+@keyframes i{
+  15% {
+    transform: translateX(5px);
+  }
+  30% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(3px);
+  }
+  65% {
+    transform: translateX(-3px);
+  }
+  80% {
+    transform: translateX(2px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.i:hover{
+  animation: i 1.5s ease;
+  animation-iteration-count: 1;
+}
+
+
+
+
+
+
+
+
+.Cases{
+    width: 100%;
+    height: 100%;
+    background: url(../img/Photo1.jpg) 150px 155px/auto 100% no-repeat;
+        
 }
 .Cases h4{
     font-size: 36px;
@@ -235,41 +282,59 @@ main{
     margin: 25px 900px;
 }
 
-
+.img2{
+    margin: 45px 220px;
+}
 
 .ca{
 float: left;
-width: 350px;
+width: 300px;
 }
-.ca img{
-    margin: 10px 230px;
-}
+
 .ca h3{
     font-size: 18px;
+    width: 200px;
     color: #384354;
-    margin: 0px 620px;
+    margin: 0px 620px ;
     line-height: 30px;
 }
 .ca p{
     font-size: 18px;
     color: #fff;
-    margin: 15px 620px;
-    width: 203px;
+    margin: 5px 620px;
+    padding: 15px 38px;
+    width: 205px;
+    height: 46px;
     background: url(../img/forma.png)  round no-repeat;
 }
 .c3 p{
    font-size: 14px;
-    margin: 650px 900px;
+    margin: 0px 900px 0px;
 }
 
-
-
+.calculator{
+    box-sizing: content-box;
+    color: antiquewhite;
+    width: 50%;
+    margin: 20px 20px 20px 20px;
+    padding: 10px;
+    border: 25px; 
+}
+.calculator select{
+    box-sizing: content-box;
+    background: #494a4f;
+    width: 888px;
+    padding: 10px;
+    border: 5px;
+    line-height: 0px;
+    }
 .calculator h1{
     font-size: 36px;
     color: #1c2534;
     width: 350px;
-    margin: 107px 896px 0px 895px;
+    margin: 350px 806px 0px 955px;
     font-weight: bold;
+    line-height: 0px;
 }
 .calculator select{
     font-size: 17px;
@@ -280,11 +345,10 @@ width: 350px;
 }
 .calculator h2{
    font-size: 18px; 
-    color: #1c2534;
+    color: #393f4a;
    text-align: left;
-   margin: 50px 0px 15px 600px;
+    font-weight: bold;
 }
-
 .calculator select{
     font-size: 17px;
     color: #737373;
@@ -294,13 +358,13 @@ width: 350px;
 }
 .calculator h2{
    font-size: 18px; 
-   color: #1c2534;
+   color: #393f4a;
    text-align: left;
    line-height: 0px;
    margin: 250px 0px 15px 600px;   
 }
 .calculator img{
-    margin: 200px 0px 15px;
+    margin: 20px 0px 15px 600px;
 }
 .crok{
     font-size: 15px;
@@ -316,10 +380,13 @@ width: 350px;
     line-height: 42px;
     background: url(../img/polosa1.jpg) center/cover no-repeat;
 }
+
+
+
 .Statistics {
     width: 100%;
     height: calc(75% );
-    background: url(../img/FonK.jpg) center/cover no-repeat round;
+    /*background: url(../img/FonK.jpg) center/cover no-repeat round;*/
     text-align: center;
 }
 .Statistics h4{
@@ -332,11 +399,10 @@ width: 350px;
 }
 .ck{
     float: left;
-    width: 387px;
-    text-align: center;
+    width: 500px;
 }
 .cp{
-    margin: 0px 0px 0px 500px; 
+    margin: 0px 0px 0px 400px; 
 }
 .ck p{
     font-size: 16px;
@@ -346,6 +412,18 @@ width: 350px;
 .ck img{
     margin: 210px 0px 10px 0px;
 }
+.ck{
+   
+    background-image: url(../img/FonK.jpg);
+    height: 600px;
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover/auto;
+}
+
+
 .reviews h1{
     font-size: 36px;
     font-weight: bold;
@@ -367,11 +445,6 @@ width: 350px;
     text-align: center;
     margin: 270px 520px 0px;
 }
-
-
-
-
-
 
 .Contacts{
     width: 100%;
@@ -448,4 +521,14 @@ width: 350px;
 }
 .ot{
     margin: 0px 0px 150px 0px;
+}
+.ot input:hover{
+    background: #344051;
+    color: white;
+}
+.ot input:active{
+    transform: scale(1.1);
+}
+.Contacts h6{
+    color: #ffffff;
 }

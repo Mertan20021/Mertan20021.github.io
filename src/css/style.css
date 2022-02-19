@@ -6,16 +6,16 @@ nav{
     height: 60px;
     background: #344051;
     position: fixed;
+    z-index: 10;
 }
 .logo{
     color: #fff;
     font-size: 28px;
     line-height: 60px;
-    padding-left: 388px;
     float: left;
-    -webkit-animation: comming 2s ease;
-    -o-animation: comming 2s ease;
-    animation: comming 2s ease;
+    -webkit-animation: comming 1s ease;
+    -o-animation: comming 1s ease;
+    animation: comming 1 s ease;
 }
 main{
     width: 100%;
@@ -23,14 +23,13 @@ main{
 }
 .menu{
     float: left;
-    padding-left: 432px;
 }
 .menu li{
     float: left;
     line-height: 60px;
     color: #fff;
     margin-right: 40px;
-    font-size: 16px;
+    font-size: 14px;
     text-transform: uppercase;
     -webkit-animation: topshift 0.4s ease forwards;
     -o-animation: topshift 0.4s ease forwards;
@@ -44,9 +43,9 @@ main{
 }
 .title__contaner{
     float: left;
-    margin: 432px 0px 0px 404px;
     color:  #2c384a;
     text-align: center; 
+    width: 100%; 
     opacity: 0;
   -webkit-animation: titlemove 1s ease forwards;
   -o-animation: titlemove 1s easeforwards;
@@ -56,8 +55,9 @@ main{
     animation-delay: 1s;
 }
 .title__contaner h1{
-    font-size: 60px;
-    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 72px;
+    font-weight: 600;
 }
 .title__contaner h4{
     margin-top: 40px;
@@ -81,6 +81,7 @@ main{
     color: white;
     transform: scale(1);
     display: inline-block;
+    text-decoration: none;
 }
 .menu li a:visited{
     color: white; 
@@ -143,7 +144,7 @@ main{
     }
     to{
         opacity: 1;
-        margin-left: 404px;
+        margin-left: 0px;
     }
 }
 .About_me{
@@ -194,16 +195,14 @@ About_me input{
 }
 .Services{
     width: 100%;
-    height: calc(75% - 10px);
+    height: calc(75%);
     background: url(../img/fon2.jpg) center/cover no-repeat;
     text-align: center;
 }
 .Services h4{
     font-size: 36px;
     font-weight: bold;
-}
-.Services img{
- margin: 25px 900px;
+    margin: 45px;
 }
 .Services h5{
     font-size: 17px;
@@ -211,18 +210,11 @@ About_me input{
     color: #cf7600;
     margin: 25px;
 }
-.i{
-    float: left;
-    width: 387px;
+.col-sm{
+    width: 500px;
+    margin: 80px;
 }
-.i2{
-   margin: 0px 0px 0px 400px; 
-}
-.i p{
-    font-size: 14px;
-    color: #3f495a;
-}
-.i img{
+.col-sm img{
     margin: 5px;
     text-align: center;
     -webkit-animation: i 0.5s;
@@ -249,7 +241,7 @@ About_me input{
     transform: translateX(0);
   }
 }
-.i:hover{
+.col-sm:hover{
   animation: i 1.5s ease;
   animation-iteration-count: 1;
 }
@@ -386,7 +378,7 @@ width: 300px;
 .Statistics {
     width: 100%;
     height: calc(75% );
-    /*background: url(../img/FonK.jpg) center/cover no-repeat round;*/
+    /*background: url(../img/FonK.jpg) center/cover no-repeat;*/
     text-align: center;
 }
 .Statistics h4{
@@ -495,7 +487,7 @@ width: 300px;
 }
 .m{
     line-height: 85px;
-    width: 500px;
+    width: 800px;
 }
 .m input{
     width: 355px;
@@ -532,3 +524,32 @@ width: 300px;
 .Contacts h6{
     color: #ffffff;
 }
+
+
+.white-btn:visited{
+    color: white;
+}
+
+@media (max-width: 990px){
+    .title__contaner, .title__contaner h4, .title__contaner input{
+        color: white;
+        position: relative;
+        z-index: 3; 
+    }
+    .title__contaner input{
+        border: 2px solid #fff; 
+    }
+    .main{
+        position: relative;
+    }
+    .main::after{
+        content: "";
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        position: absolute;
+        background: rgba(0,0,0,0.4)
+    }
+}
+

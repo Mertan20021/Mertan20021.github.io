@@ -5,6 +5,7 @@
      <meta name="robots" content="all">
      <title>Андрей Браун</title>
      <link rel="stylesheet" href="css/reset.css">
+     <link rel="stylesheet" href="css/bootstrap.min.css">
      <link rel="stylesheet" href="css/style.css">
  </head>
  
@@ -12,27 +13,52 @@
    
     <header>
        <nav>
-            <div class="logo">Андрей Браун</div>
-            <div class="menu"><ul>
+           <div class="container">
+               <div class="row">
+                   <div class="col-xxl-2 col-lg-3 col-7"><div class="logo">Андрей Браун</div></div>
+                   <div class="px-0 col-xxl-6 col-xl-7  col-lg-8 offset-xxl-4 offset-xl-2 offset-lg-1 d-none d-lg-block"><div class="menu"><ul>
                 <li><a href="#">Обо мне</a></li>
                 <li><a href="#">Услуги</a></li>
                 <li><a href="#">Кейсы</a></li>
                 <li><a href="#">Прайс</a></li>
                 <li><a href="#">Отзывы</a></li>
                 <li><a href="#">Контакты</a></li>
-            </ul></div>
+            </ul></div></div>
+               </div>
+           </div>
+           <div class="col-5 d-flex d-lg-none flex-column justify-content-center align-items-end">
+               <div class="dropdown">
+  <a class="btn btn-outline-secondary dropdown-toggle white-btn" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+    Навигация
+  </a>
+
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <li><a class="dropdown-item" href="#">Обо мне</a></li>
+    <li><a class="dropdown-item" href="#">Услуги</a></li>
+    <li><a class="dropdown-item" href="#">Кейсы</a></li>
+    <li><a class="dropdown-item" href="#">Прайс</a></li>
+    <li><a class="dropdown-item" href="#">Отзывы</a></li>
+    <li><a class="dropdown-item" href="#">Контакты</a></li>
+  </ul>
+</div>
+           </div>
        </nav>
     </header>
     
     <main>
-     <section class="main"><div class="title__contaner">
+     <section class="main">
+        <div class="container h-100"><div class="row align-items-center h-100"> <div class="col-lg-6 mt-5 pt-5">
+                    <div class="title__contaner mt-5">
          <h1>Привет <br>Я Андрей Браун</h1>
          <h4>Фулл стек веб-разработчик</h4>
          <input type="button" value="Обо мне"> 
          <input type="button" value="Мои контакты">
+        </div></div></div>
+
      </div></section>
-     
+      
     <div class="About_me">
+
        <h3>Обо мне</h3>
        <img src="img/trait.jpg" alt="">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente perspiciatis incidunt sunt vero autem consequatur voluptas in facere molestiae quod corrupti maxime, modi facilis ea natus, perferendis dignissimos, beatae, error ipsa soluta enim expedita! Temporibus, hic libero. Voluptatum, exercitationem, adipisci eum fugit voluptates excepturi tenetur modi quidem possimus optio quis.</p>
@@ -41,39 +67,38 @@
         
     </div>
       
-       <div class="Services"> 
-       <h4>Что я умею</h4>
-       <img  src="img/trait.png" alt="">
-        
-       
-       <div class="i i2"> 
-        <h5>Веб-дизайн</h5>
+       <div class="Services">
+        <div class="container px-4">
+   <div class="row">
+   <div class="col-sm-12">
+             <h4>Что я умею</h4>
+             <img  src="img/trait.png" alt="">
+    </div>
+    <div class="col-sm ">
         <img src="img/N1.png" alt="">
+        <h5>Веб-дизайн</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, quam.</p>
-       </div>
-        
-        <div class="i">
+    </div>
+    <div class="col-sm ">
+        <img src="img/R1.png" alt="">
         <h5>Разработка</h5>
-       <img src="img/R1.png" alt="">
        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tenetur, molestiae!</p>
-        </div>
-        
-       <div class="i">
-        <h5>CEO-оптимизация</h5>
+    </div>
+    <div class="col-sm">
         <img src="img/R2.png" alt="">
+        <h5>CEO-оптимизация</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla.</p>
-       </div>
-
-        <div class="i">
-        <h5>Маркетинг</h5>
+    </div>
+    <div class="col-sm">
         <img src="img/M1.png" alt="">
+        <h5>Маркетинг</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto rem ullam voluptatum.</p>
-        </div>
-        
-       </div> 
+    </div>
+  </div>
+</div>
+       </div>
         
            
-    
      <div class="Cases">
          <h4>Кейсы</h4>
          <img src="img/trait.png" alt="">
@@ -220,6 +245,7 @@
         
      </footer>
      </main>
+     <script src="js/bootstrap.bundle.min.js"></script>
  </body>
  
  </html>

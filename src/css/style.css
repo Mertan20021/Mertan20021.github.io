@@ -284,145 +284,113 @@ About_me input{
     width: 205px;
     height: 46px;
     background: url(../img/forma.png)  no-repeat;
-    text-align: left;
-    display: flex;
+    
+    
     
    
 }
 
 .calculator{
-
-    width: 50%;
-    margin: 20px 20px 20px 20px;
-    padding: 10px;
-    border: 25px; 
+    border: 2px solid White;
+    max-width: 975px;
+    height: 750px;
+    margin: 0 auto;
+    padding: 25px;
+    box-shadow:  0px 0px 10px 2px lightgray; 
+    
 }
 .calculator h1{
     font-size: 36px;
     color: #1c2534;
-    width: 350px;
-    margin: 350px 806px 0px 955px;
+    text-align: center;
     font-weight: bold;
-    line-height: 0px;
 }
-.calculator select{
-    box-sizing: content-box;
-    background: #494a4f;
-    width: 888px;
-    padding: 10px;
-    border: 5px;
-    line-height: 0px;
-    }
-
 .calculator select{
     font-size: 17px;
     color: #737373;
-    float: left;
-    margin: 100px 0px 15px 600px;
+    width: 888px;
+    padding: 10px;
+    border: 5px;
     background: url(../img/polosa1.jpg) center/cover no-repeat;
-}
+    }
+
 .calculator h2{
    font-size: 18px; 
     color: #393f4a;
    text-align: left;
     font-weight: bold;
-}
-.calculator select{
-    font-size: 17px;
-    color: #737373;
-    float: left;
-    margin: 150px 0px 15px 600px;
-    background: url(../img/polosa1.jpg) center/cover no-repeat;
-}
-.calculator h2{
-   font-size: 18px; 
-   color: #393f4a;
-   text-align: left;
-   line-height: 0px;
-   margin: 250px 0px 15px 600px;   
-}
-.calculator img{
-    margin: 20px 0px 15px 600px;
+    line-height: 110px; 
 }
 .crok{
     font-size: 15px;
     color: #1c2534;
-    margin: 5px 0px 0px 600px;
     line-height: 30px;
 }
-.calculator select{
-    font-size: 17px;
-    color: #737373;
-    float: left;
-    margin: 150px 0px 15px 600px;
-    line-height: 42px;
-    background: url(../img/polosa1.jpg) center/cover no-repeat;
+.calculator h3{
+    font-size: 18px;
+    color: #fff;
+    margin: 25px;
+    padding: 13px 15px;
+    width: 205px;
+    height: 46px;
+    text-align: center;
+    background: url(../img/forma.png) no-repeat;
+  
 }
 
 
 
-.Statistics {
+
+
+.Statistics{
     width: 100%;
-    height: calc(75% );
-    /*background: url(../img/FonK.jpg) center/cover no-repeat;*/
+    height: 65% ;
+    background: url(../img/FonK.jpg) center/cover no-repeat;
     text-align: center;
+    display: flex;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover/auto;
 }
 .Statistics h4{
     font-size: 36px;
     color: #263244;
     font-weight: bold;
 }
-.Statistics img{
-    margin: 35px 920px ;
-}
-.ck{
-    float: left;
-    width: 500px;
-}
-.cp{
-    margin: 0px 0px 0px 400px; 
-}
-.ck p{
+.Statistics p{
     font-size: 16px;
     color: #323e4f;
     font-weight: bold;
 }
-.ck img{
-    margin: 210px 0px 10px 0px;
-}
-.ck{
-   
-    background-image: url(../img/FonK.jpg);
-    height: 600px;
-    
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover/auto;
-}
 
 
+
+
+
+.reviews{
+    height: 55%;
+    background: url(../img/fotka2.png)  center 150px/auto 100px no-repeat;
+    display: flex;
+}
 .reviews h1{
     font-size: 36px;
     font-weight: bold;
-    color: #263244;
-    margin: 107px 0px 0px 1150px; 
-}
-.reviews{
-    width: 100%;
-    height: calc(100% - 60px);
-    background: url(../img/fotka2.png) 1160px 118px/auto 150px no-repeat;
-}
-.reviews img{
-    margin: 30px 0px 0px 1200px;
+    color: #263244; 
+    text-align: center;
 }
 .reviews p{
+    margin-top: 15%;
     font-size: 14px;
     color: #545b66;
     float: left;
     text-align: center;
-    margin: 270px 520px 0px;
 }
+
+
+
+
+
 
 .Contacts{
     width: 100%;
